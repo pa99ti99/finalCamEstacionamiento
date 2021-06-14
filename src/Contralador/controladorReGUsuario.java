@@ -5,7 +5,7 @@
  */
 package Contralador;
 
-import Vista.ReGUsuario;
+import Vista.*;
 
 import Modelo.hash;
 import Modelo.conUsuarios;

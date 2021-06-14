@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,56,0,0,2,78"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="120" width="184" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnombre">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="140" width="157" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="170" width="157" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtpaterno">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtpaternoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="190" width="157" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de Contacto:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="270" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calle:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="310" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumero">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnumeroActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="290" width="157" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcalle">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="330" width="157" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Usuario:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="130" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtusuario">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="150" width="163" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Correo Electronico"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="180" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcorreo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="200" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Password:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="230" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Confirmar Contrase&#xf1;a:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="270" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Matricula:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="320" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtmatricula">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="340" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No.Int"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="170" y="370" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apellido Materno:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="220" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtmaterno">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="240" width="157" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No.Ext"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="370" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtixt">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="210" y="370" width="37" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExt">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="130" y="370" width="38" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGuardar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="240" y="440" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REGISTRAR "/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="190" y="40" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="PAss">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="250" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="confiPAss">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="290" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbmpio">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="Del/Mpio"/>
+            <StringItem index="1" value="&#xc1;lvaro Obreg&#xf3;n"/>
+            <StringItem index="2" value="Azcapotzalco"/>
+            <StringItem index="3" value="Benito Ju&#xe1;rez"/>
+            <StringItem index="4" value="Coyoac&#xe1;n"/>
+            <StringItem index="5" value="Cuajimalpa de Morelos"/>
+            <StringItem index="6" value="Cuauht&#xe9;moc"/>
+            <StringItem index="7" value="Gustavo A. Madero"/>
+            <StringItem index="8" value="Iztacalco"/>
+            <StringItem index="9" value="ztapalapa"/>
+            <StringItem index="10" value="Magdalena Contreras"/>
+            <StringItem index="11" value="Miguel Hidalgo"/>
+            <StringItem index="12" value=" Milpa Alta"/>
+            <StringItem index="13" value="Tl&#xe1;huac"/>
+            <StringItem index="14" value="Tlalpan"/>
+            <StringItem index="15" value="Venustiano Carranza"/>
+            <StringItem index="16" value="Xochimilco."/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbmpioActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="370" width="163" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbColonia">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="159">
+            <StringItem index="0" value="Colonia"/>
+            <StringItem index="1" value="LOMAS DE CAPULA"/>
+            <StringItem index="2" value="LOMAS DE BECERRA"/>
+            <StringItem index="3" value="BARRIO NORTE"/>
+            <StringItem index="4" value="JARDINES DEL PEDREGAL"/>
+            <StringItem index="5" value="SAN CLEMENTE"/>
+            <StringItem index="6" value="OLIVAR DE LOS PADRES"/>
+            <StringItem index="7" value="OLIVAR DEL CONDE 1RA SECCI&#xd3;N I"/>
+            <StringItem index="8" value="TIZAPAN TIZAPAN SAN &#xc1;NGEL"/>
+            <StringItem index="9" value="LAS &#xc1;GUILAS (AMPL)"/>
+            <StringItem index="10" value="LOMAS DE LA ERA"/>
+            <StringItem index="11" value="TORRES DE POTRERO"/>
+            <StringItem index="12" value="SAN BARTOLO AMEYALCO (PBLO)"/>
+            <StringItem index="13" value="SANTA ROSA XOCHIAC (PBLO)"/>
+            <StringItem index="14" value="REYNOSA TAMAULIPAS"/>
+            <StringItem index="15" value="EL ROSARIO C (U HAB)"/>
+            <StringItem index="16" value="ARENAL"/>
+            <StringItem index="17" value="DEL GAS"/>
+            <StringItem index="18" value="SAN JUAN TLIHUACA(PBLO)"/>
+            <StringItem index="19" value="TEZOZ&#xd3;MOC"/>
+            <StringItem index="20" value="JU&#xc1;REZ NATIVITAS"/>
+            <StringItem index="21" value="LOS REYES PUEBLO PEDREGAL DE SANTA &#xda;RSULA III"/>
+            <StringItem index="22" value="PEDREGAL DE STO. DOMINGO IV"/>
+            <StringItem index="23" value="PEDREGAL DE STO DOMINGO VI"/>
+            <StringItem index="24" value="CTM VI CULHUAC&#xc1;N (U HAB)"/>
+            <StringItem index="25" value="AJUSCO I"/>
+            <StringItem index="26" value="AJUSCO II"/>
+            <StringItem index="27" value="LA PILA"/>
+            <StringItem index="28" value="LAS LAJAS"/>
+            <StringItem index="29" value="SAN LORENZO ACOPILCO (PBLO)"/>
+            <StringItem index="30" value="GRANJAS DE NAVIDAD"/>
+            <StringItem index="31" value="LOMA DEL PADRE"/>
+            <StringItem index="32" value="SAN PEDRO CUAJIMALPA (PBLO)"/>
+            <StringItem index="33" value="SAN MATEO TLALTENANGO (PBLO)"/>
+            <StringItem index="34" value="CENTRO VIII"/>
+            <StringItem index="35" value="PERALVILLO II"/>
+            <StringItem index="36" value="DOCTORES II"/>
+            <StringItem index="37" value="DOCTORES III"/>
+            <StringItem index="38" value="GUERRERO IV"/>
+            <StringItem index="39" value="DOCTORES IV"/>
+            <StringItem index="40" value="OBRERA II"/>
+            <StringItem index="41" value="MORELOS III"/>
+            <StringItem index="42" value="SAN JUAN DE ARAG&#xd3;N (PBLO)"/>
+            <StringItem index="43" value="CUCHILLA DEL TESORO"/>
+            <StringItem index="44" value="SAN JUAN DE ARAG&#xd3;N 1A SECCI&#xd3;N (U HAB) II"/>
+            <StringItem index="45" value="GABRIEL HERN&#xc1;NDEZ (AMPL) II"/>
+            <StringItem index="46" value="GABRIEL HERN&#xc1;NDEZ"/>
+            <StringItem index="47" value="NUEVA ATZACOALCO II"/>
+            <StringItem index="48" value="NUEVA ATZACOALCO III"/>
+            <StringItem index="49" value="LOMA DE LA PALMA"/>
+            <StringItem index="50" value="SANTA ISABEL TOLA (PBLO)"/>
+            <StringItem index="51" value="SAN FELIPE DE JES&#xda;S III"/>
+            <StringItem index="52" value="SAN FELIPE DE JES&#xda;S IV"/>
+            <StringItem index="53" value="LA PUR&#xcd;SIMA TICOM&#xc1;N (BARR)"/>
+            <StringItem index="54" value="LA CANDELARIA TICOM&#xc1;N BARRIO"/>
+            <StringItem index="55" value="M&#xc1;RTIRES DE R&#xcd;O BLANCO"/>
+            <StringItem index="56" value="SAN ANITA"/>
+            <StringItem index="57" value="PANTITL&#xc1;N I"/>
+            <StringItem index="58" value="PANTITL&#xc1;N II"/>
+            <StringItem index="59" value="PANTITL&#xc1;N IV"/>
+            <StringItem index="60" value="PANTITL&#xc1;N V"/>
+            <StringItem index="61" value="ACULCO (PBLO)"/>
+            <StringItem index="62" value="LAS PE&#xd1;AS I"/>
+            <StringItem index="63" value="LOMAS ESTRELLA 2&#xaa; SECCI&#xd3;N I"/>
+            <StringItem index="64" value="IXTLAHUACAN"/>
+            <StringItem index="65" value="GUADALUPE DEL MORAL"/>
+            <StringItem index="66" value="CONSEJO AGRARISTA MEXICANO I"/>
+            <StringItem index="67" value="LOMAS DE SAN LORENZO "/>
+            <StringItem index="68" value="LOMAS DE SAN LORENZO II "/>
+            <StringItem index="69" value="SAN LORENZO TEZONCO (PBLO)"/>
+            <StringItem index="70" value="CERRO DE LA ESTRELLA I"/>
+            <StringItem index="71" value="SAN JUAN XALPA I"/>
+            <StringItem index="72" value="MIRASOLES(U HAB)"/>
+            <StringItem index="73" value="VALLE DE SAN LORENZO I"/>
+            <StringItem index="74" value="SAN ANTONIO (BARR)"/>
+            <StringItem index="75" value="LAS PALMAS"/>
+            <StringItem index="76" value="BARRANCA SECA"/>
+            <StringItem index="77" value="LA CRUZ"/>
+            <StringItem index="78" value="EL ROSAL"/>
+            <StringItem index="79" value="SAN BERNAB&#xc9; OCOTEPEC (PBLO)"/>
+            <StringItem index="80" value="CAZULCO (BARR)"/>
+            <StringItem index="81" value="EL TORO"/>
+            <StringItem index="82" value="BARROS SIERRA"/>
+            <StringItem index="83" value="TIERRA COLORADA"/>
+            <StringItem index="84" value="EL OCOTAL"/>
+            <StringItem index="85" value="LA CARBONERA"/>
+            <StringItem index="86" value="EL TANQUE"/>
+            <StringItem index="87" value="SAN BARTOLO AMEYALCO"/>
+            <StringItem index="88" value="POTRERILLO"/>
+            <StringItem index="89" value="LAS CRUCES"/>
+            <StringItem index="90" value="LOS PADRES "/>
+            <StringItem index="91" value="LOMAS DE SAN BERNABE"/>
+            <StringItem index="92" value="TIERRA UNIDA"/>
+            <StringItem index="93" value="LA MALINCHE"/>
+            <StringItem index="94" value="PUEBLO NUEVO ALTO"/>
+            <StringItem index="95" value="SAN JER&#xd3;NIMO ACULCO - L&#xcd;DICE (PBLO)"/>
+            <StringItem index="96" value="SAN NICOL&#xc1;S TOTOLAPAN (PBLO)"/>
+            <StringItem index="97" value="AN&#xc1;HUAC I"/>
+            <StringItem index="98" value="AN&#xc1;HUAC II"/>
+            <StringItem index="99" value="POPOTLA"/>
+            <StringItem index="100" value="AM&#xc9;RICA"/>
+            <StringItem index="101" value="TLAXPANA"/>
+            <StringItem index="102" value="SAN ANTONIO TEC&#xd3;MITL (PBLO)"/>
+            <StringItem index="103" value="SAN PABLO OZTOTEPEC (PBLO)"/>
+            <StringItem index="104" value="SAN SALVADOR CUAUHTENCO (PBLO)"/>
+            <StringItem index="105" value="VILLA MILPA ALTA (PBLO)"/>
+            <StringItem index="106" value="SAN PEDRO ATOCPAN (PBLO)"/>
+            <StringItem index="107" value="SAN JOS&#xc9;"/>
+            <StringItem index="108" value="LA CONCHITA I"/>
+            <StringItem index="109" value="UNIDADES HABITACIONALES DE SANTA ANA PONIENTE I"/>
+            <StringItem index="110" value="MIGUEL HIDALGO"/>
+            <StringItem index="111" value="MIGUEL HIDALGO OTE"/>
+            <StringItem index="112" value="LA CONCHITA II"/>
+            <StringItem index="113" value="SANTIAGO ZAPOTITL&#xc1;N (PBLO)"/>
+            <StringItem index="114" value="SAN ANDR&#xc9;S MIXQUIC (PBLO)"/>
+            <StringItem index="115" value="SAN FRANCISCO TLALTENCO (PBLO)"/>
+            <StringItem index="116" value="SELENE (AMPL)"/>
+            <StringItem index="117" value="SAN PEDRO TL&#xc1;HUAC (PBLO)"/>
+            <StringItem index="118" value="AGR&#xcd;COLA METROPOLITANA"/>
+            <StringItem index="119" value="LA HABANA"/>
+            <StringItem index="120" value="SAN MIGUEL AJUSCO"/>
+            <StringItem index="121" value="PEDREGAL DE SN NICOL&#xc1;S 2A SECC"/>
+            <StringItem index="122" value="PEDREGAL DE SAN NICOL&#xc1;S 3A SECC"/>
+            <StringItem index="123" value="SAN PEDRO M&#xc1;RTIR (PBLO)"/>
+            <StringItem index="124" value="EJIDOS DE SAN PEDRO M&#xc1;RTIR I (NORTE)"/>
+            <StringItem index="125" value="LOMAS DE PADIERNA II"/>
+            <StringItem index="126" value="H&#xc9;ROES DE PADIERNA 1"/>
+            <StringItem index="127" value="SANTO TOM&#xc1;S AJUSCO"/>
+            <StringItem index="128" value="POPULAR STA TERESA"/>
+            <StringItem index="129" value="AMPLIACI&#xd3;N MIGUEL HIDALGO 2A SECC"/>
+            <StringItem index="130" value="AMPLIACI&#xd3;N MIGUEL HIDALGO 3A SECC"/>
+            <StringItem index="131" value="MESA LOS HORNOS, TEXCALTENCO"/>
+            <StringItem index="132" value="MIGUEL HIDALGO"/>
+            <StringItem index="133" value="PEDREGAL DE SN NICOL&#xc1;S 1A SECC"/>
+            <StringItem index="134" value="SAN ANDR&#xc9;S TOTOLTEPEC (PBLO)"/>
+            <StringItem index="135" value="SAN MIGUEL XICALCO (PBLO)"/>
+            <StringItem index="136" value="LA MAGDALENA PETLACALCO (PBLO)"/>
+            <StringItem index="137" value="SAN MIGUEL TOPILEJO (PBLO)"/>
+            <StringItem index="138" value="LOMAS DE PADIERNA I"/>
+            <StringItem index="139" value="EL ARENAL IV SECC"/>
+            <StringItem index="140" value="MOCTEZUMA II SECC II"/>
+            <StringItem index="141" value="MOCTEZUMA II SECC III"/>
+            <StringItem index="142" value="ROMERO RUBIO"/>
+            <StringItem index="143" value="SIM&#xd3;N BOL&#xcd;VAR"/>
+            <StringItem index="144" value="CARACOL"/>
+            <StringItem index="145" value="MORELOS I"/>
+            <StringItem index="146" value="MORELOS II"/>
+            <StringItem index="147" value="CUCHILLA PANTITL&#xc1;N"/>
+            <StringItem index="148" value="SAN LORENZO ATEMOAYA (PBLO)"/>
+            <StringItem index="149" value="SAN LUIS TLAXIALTEMALCO (PBLO)"/>
+            <StringItem index="150" value="SAN GREGORIO ATLAPULCO (PBLO)"/>
+            <StringItem index="151" value="SANTA MAR&#xcd;A NATIVITAS (PBLO)"/>
+            <StringItem index="152" value="SANTA CRUZ ACALPIXCA (PBLO)"/>
+            <StringItem index="153" value="SANTIAGO TEPALCATLALPAN (PBLO)"/>
+            <StringItem index="154" value="XALTOCAN (BARR)"/>
+            <StringItem index="155" value="SAN ANDR&#xc9;S AHUAYUCAN (PBLO)"/>
+            <StringItem index="156" value="SAN MATEO XALPA (PBLO)"/>
+            <StringItem index="157" value="SANTIAGO TULYEHUALCO (PBLO)"/>
+            <StringItem index="158" value="JOSE LOPEZ PORTILLO"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="400" width="206" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/pantalla.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel5"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="590" height="570"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
