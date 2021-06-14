@@ -9,22 +9,19 @@ package Modelo;
  *
  * @author Pati
  */
-public class Usuarios {
+public class admin {
 
-    private int id_usuario;
+    private int id_adminstrador;
     private String usuario;
-    private String password;
     private String correo;
-    private String matricula;
+    private String contrasena;
     private String contacto;
     private String nombre;
-    private String paterno;
-    private String materno;
+    private String apaterno;
+    private String apmaterno;
     private String last_session;
+    private int id_tipo; 
     
-    private int id_tipo;
-    private String nombre_tipo;// se declara el valor de previlegios  de rol para el usuario
-
     private int id_direccion;
     private String calle;
     private String nointe;
@@ -32,12 +29,20 @@ public class Usuarios {
     private String delegacion;
     private String colonia;
 
-    public int getId_usuario() {
-        return id_usuario;
+    public String getLast_session() {
+        return last_session;
     }
 
-    public void setId_usuario(int id_usuario) {
-        this.id_usuario = id_usuario;
+    public void setLast_session(String last_session) {
+        this.last_session = last_session;
+    }
+
+    public int getId_adminstrador() {
+        return id_adminstrador;
+    }
+
+    public void setId_adminstrador(int id_adminstrador) {
+        this.id_adminstrador = id_adminstrador;
     }
 
     public String getUsuario() {
@@ -48,14 +53,6 @@ public class Usuarios {
         this.usuario = usuario;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public String getCorreo() {
         return correo;
     }
@@ -64,12 +61,12 @@ public class Usuarios {
         this.correo = correo;
     }
 
-    public String getMatricula() {
-        return matricula;
+    public String getContrasena() {
+        return contrasena;
     }
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
     }
 
     public String getContacto() {
@@ -88,28 +85,20 @@ public class Usuarios {
         this.nombre = nombre;
     }
 
-    public String getPaterno() {
-        return paterno;
+    public String getApaterno() {
+        return apaterno;
     }
 
-    public void setPaterno(String paterno) {
-        this.paterno = paterno;
+    public void setApaterno(String apaterno) {
+        this.apaterno = apaterno;
     }
 
-    public String getMaterno() {
-        return materno;
+    public String getApmaterno() {
+        return apmaterno;
     }
 
-    public void setMaterno(String materno) {
-        this.materno = materno;
-    }
-
-    public String getLast_session() {
-        return last_session;
-    }
-
-    public void setLast_session(String last_session) {
-        this.last_session = last_session;
+    public void setApmaterno(String apmaterno) {
+        this.apmaterno = apmaterno;
     }
 
     public int getId_tipo() {
@@ -118,14 +107,6 @@ public class Usuarios {
 
     public void setId_tipo(int id_tipo) {
         this.id_tipo = id_tipo;
-    }
-
-    public String getNombre_tipo() {
-        return nombre_tipo;
-    }
-
-    public void setNombre_tipo(String nombre_tipo) {
-        this.nombre_tipo = nombre_tipo;
     }
 
     public int getId_direccion() {
@@ -176,4 +157,5 @@ public class Usuarios {
         this.colonia = colonia;
     }
 
+   
 }

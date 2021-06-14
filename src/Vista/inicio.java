@@ -5,13 +5,15 @@
  */
 package Vista;
 
+import Contralador.controladorinicio;
+
 /**
  *
  * @author Pati
  */
 public class inicio extends javax.swing.JFrame {
-
-
+   
+    
   
     public inicio() {
         initComponents();
@@ -26,58 +28,70 @@ public class inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jbt2resgistra = new javax.swing.JButton();
-        jBingresa = new javax.swing.JButton();
+        btnPrinIngresarAdmin = new javax.swing.JButton();
+        Com = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        btnPrinIngresar = new javax.swing.JButton();
+        Administrador = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jbt2resgistra.setText("Registrar ");
-        jbt2resgistra.addActionListener(new java.awt.event.ActionListener() {
+        btnPrinIngresarAdmin.setBackground(new java.awt.Color(255, 255, 255));
+        btnPrinIngresarAdmin.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnPrinIngresarAdmin.setForeground(new java.awt.Color(51, 51, 0));
+        btnPrinIngresarAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/imgusuario.png"))); // NOI18N
+        btnPrinIngresarAdmin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnPrinIngresarAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbt2resgistraActionPerformed(evt);
+                btnPrinIngresarAdminActionPerformed(evt);
             }
         });
+        getContentPane().add(btnPrinIngresarAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 170, 200));
 
-        jBingresa.setText("Ingresar");
-        jBingresa.addActionListener(new java.awt.event.ActionListener() {
+        Com.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        Com.setText("INGRESE AL LOGIN CORRESPONDIDO");
+        getContentPane().add(Com, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setText("Usuario ");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 130, -1, -1));
+
+        btnPrinIngresar.setBackground(new java.awt.Color(255, 255, 255));
+        btnPrinIngresar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnPrinIngresar.setForeground(new java.awt.Color(51, 51, 0));
+        btnPrinIngresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/usuaq.jpg"))); // NOI18N
+        btnPrinIngresar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnPrinIngresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBingresaActionPerformed(evt);
+                btnPrinIngresarActionPerformed(evt);
             }
         });
+        getContentPane().add(btnPrinIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 210, 250, 190));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(jbt2resgistra)
-                .addGap(58, 58, 58)
-                .addComponent(jBingresa)
-                .addContainerGap(143, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(112, 112, 112)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jbt2resgistra)
-                    .addComponent(jBingresa))
-                .addContainerGap(165, Short.MAX_VALUE))
-        );
+        Administrador.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        Administrador.setText("Administrador ");
+        getContentPane().add(Administrador, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pantalla.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 580));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jbt2resgistraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbt2resgistraActionPerformed
-        // TODO add your handling code here:
+    private void btnPrinIngresarAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrinIngresarAdminActionPerformed
+        // TODO add your handling code here
+        controladorinicio.btnPrinIngresarAdmin();
      
-    }//GEN-LAST:event_jbt2resgistraActionPerformed
+    }//GEN-LAST:event_btnPrinIngresarAdminActionPerformed
 
-    private void jBingresaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBingresaActionPerformed
+    private void btnPrinIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrinIngresarActionPerformed
         // TODO add your handling code here:
- 
-    }//GEN-LAST:event_jBingresaActionPerformed
+        controladorinicio.btnPrinIngresar();
+
+    }//GEN-LAST:event_btnPrinIngresarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -116,7 +130,11 @@ public class inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBingresa;
-    private javax.swing.JButton jbt2resgistra;
+    private javax.swing.JLabel Administrador;
+    private javax.swing.JLabel Com;
+    public javax.swing.JButton btnPrinIngresar;
+    public javax.swing.JButton btnPrinIngresarAdmin;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

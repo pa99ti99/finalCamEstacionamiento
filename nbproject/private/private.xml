@@ -3,18 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/Principalestacion.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Modelo/Usuarios.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/RegUsuario.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/IngresarVeh.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Modelo/conexion.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/RetirarVeh.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/logins.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Modelo/hash.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Modelo/Sqlconsulta.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/inicio.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Modelo/ClasVehiculo.java</file>
-            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/listarVeh.java</file>
+            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Contralador/controladoringresarVeh.java</file>
+            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/controladoringresarVeh/btnSalirregs.java</file>
+            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Contralador/Proyectoestacionamieneto.java</file>
+            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/homeAdmin.java</file>
+            <file>file:/C:/Users/Pati/Documents/NetBeansProjects/proyectoestacionamieneto/src/Vista/ingresarVeh.java</file>
         </group>
     </open-files>
 </project-private>

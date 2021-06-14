@@ -5,6 +5,8 @@
  */
 package Vista;
 
+import Contralador.controladorinicio;
+
 /**
  *
  * @author Pati
@@ -29,50 +31,91 @@ public class logins extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jPasswordField1 = new javax.swing.JPasswordField();
+        txtusuario = new javax.swing.JTextField();
+        txtPass = new javax.swing.JPasswordField();
+        btnIngresarlog = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        btn_resgistrar = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Usuarios:");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel1.setText("Usuario:");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, -1, 20));
 
-        jLabel2.setText("PassWord:");
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel2.setText("Password:");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, -1, 20));
 
-        jTextField1.setText("jTextField1");
+        txtusuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtusuarioActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 127, -1));
+        getContentPane().add(txtPass, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 127, -1));
 
-        jPasswordField1.setText("jPasswordField1");
+        btnIngresarlog.setBackground(new java.awt.Color(153, 255, 204));
+        btnIngresarlog.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnIngresarlog.setText("Iniciar sesión");
+        btnIngresarlog.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIngresarlogActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnIngresarlog, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 120, 30));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(109, 109, 109)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
-                    .addComponent(jTextField1))
-                .addContainerGap(102, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(67, 67, 67)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(50, 50, 50)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(143, Short.MAX_VALUE))
-        );
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel3.setText("** Usuario **");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 170, -1));
+
+        btn_resgistrar.setBackground(new java.awt.Color(204, 255, 255));
+        btn_resgistrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_resgistrar.setText("Crear nueva cuenta");
+        btn_resgistrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_resgistrarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_resgistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/admnin.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 160, 160));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/oi09.jpg"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 320));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void txtusuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtusuarioActionPerformed
+
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        // TODO add your handling code here:
+      
+    }//GEN-LAST:event_formWindowClosing
+
+    private void btnIngresarlogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarlogActionPerformed
+        // TODO add your handling code here:
+        Contralador.controladorlogins.btnIngresarlog ();
+    }//GEN-LAST:event_btnIngresarlogActionPerformed
+
+    private void btn_resgistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_resgistrarActionPerformed
+        // TODO add your handling code here:
+        
+         Contralador.controladorlogins.btnGuardar();
+    }//GEN-LAST:event_btn_resgistrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -110,9 +153,14 @@ public class logins extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton btnIngresarlog;
+    private javax.swing.JButton btn_resgistrar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    public javax.swing.JPasswordField txtPass;
+    public javax.swing.JTextField txtusuario;
     // End of variables declaration//GEN-END:variables
 }
